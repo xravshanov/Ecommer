@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    background-color: #fff;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.container{
+    max-width: 100px;
+    margin: 0 auto; 
+    padding: 0;
+    /* border: 1px solid red; */
+}
+.Logo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    /* box-shadow: 0px 7px 10px rgba(107, 106, 106, 0.4); */
+}
+.logo-item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.logo-item2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 8px 18px;
+    border-radius: 4px;
+    background: var(--main-secondary, #70C05B);
+}
+.katalog{
+    color: var(--main-on-secondary, #FFF);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.navbar-sing{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    /* padding: 7px 7px 7px 7px; */
+    border: 1px solid var(--main-secondary, #70C05B);
+    background: var(--main-surface, #FFF);
+}
+.navbar-input{
+    outline: none;
+    border: none; 
+    /* color: var(--grayscale-hard, #8F8F8F); */
+    background-color: #fff;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 0px 80px 0px 0px
+}
+.logo-item3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.logo-content{
+    margin: 0 auto;
+    
+}
+.logo-img{
+    padding-left: 7px;
+    padding-bottom: 10px;
+}
+.logo-img1{
+    padding-left: 18px;
+    padding-bottom: 10px;
+}
+.logo-h6{
+    color: var(--main-on-surface, #414141);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.logo-btn{
+    padding: 7px 22px;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #5f5d5d;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    border: 1px solid rgba(105, 61, 61, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo-btn:hover{
+    color: #333;
+    background-color: #ffff;
+}

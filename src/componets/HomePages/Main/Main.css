@@ -1,0 +1,284 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding-top: 800px;
+
+}
+.first-h4{
+    color: var(--main-on-surface, #414141);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.section2{
+    background: var(--main-bg-page, #FBF8EC);
+}
+.second{
+    padding: 80px 0 120px 0;
+}
+.second-item1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.section-item1-h4{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
+.section-item2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+} 
+.section-item2-span{
+    color: var(--grayscale-hardest, #606060);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.thirty-content{
+    width: 272px;
+    height: 340px;
+    /* padding: 20px; */
+    /* margin: 0 auto; */
+    border-radius: 4px;
+    background: var(--main-surface, #FFF);
+    box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.20);
+
+}
+.thirty-img{
+    padding-bottom: 8px;
+    padding-top: 2px;
+}
+.thirty-h3{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-bottom: 10px;
+    padding: 0 0px 0 10px;
+}
+.thirty-text{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 12px;
+    margin: 0 0px 0 10px;
+}
+.thirty-thirty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+.thirty-btn{
+    color: var(--main-secondary, #70C05B);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+    border-radius: 4px;
+    border: 1px solid var(--main-secondary, #70C05B);
+    width: 100%;
+    padding: 6px 0;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thirty-btn:hover{
+    color: #ffff;
+    background: var(--main-primary, #F63);
+}
+.thirty{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.five{
+    padding: 0 0 120px 0;
+}
+.four{
+    padding: 0 0 120px 0;
+}
+.seven{
+    padding-bottom: 120px;
+}
+.seven-h2{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    padding-bottom: 40px;
+}
+.seven-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.seven-item{
+    border-radius: 4px;
+    background: var(--main-primary-muted, #FCD5BA);
+    box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.50);
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 7px 30px 8px 40px;
+}
+.seven-text{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    max-width: 252px;
+    /* width: 100%; */
+    /* padding-right: 40px; */
+    padding-bottom: 10px;
+}
+.seven-text2{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    max-width: 240px;
+    width: 100%;
+    /* padding-right: 40px; */
+    padding-bottom: 10px;
+}
+
+.eat-btn{
+    color: var(--grayscale-hardest, #606060);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    border-radius: 4px;
+    background: var(--grayscale-lightest, #F3F2F1);
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.eat-btn:hover{
+    color: #fff; 
+    background: var(--main-secondary, #70C05B);
+}
+.eats{
+    padding-bottom: 120px;
+}
+.eat-h3{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    padding-bottom: 40px;
+}
+.eat-content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.eat-img{
+    width: 1298px;
+}
+.night{
+    padding-bottom: 80px;
+}
+.night-content{
+    max-width: 376px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.night-h6{
+    color: var(--grayscale-hard, #8F8F8F);
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding: 10px;
+}
+.night-text1{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    padding: 0 10px 10px 10px;
+}
+.night-text2{
+    color: var(--main-on-surface, #414141);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding: 0 10px 8px 10px;
+}
+.night-btn{
+    color: var(--main-secondary, #70C05B);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding: 6px 22px;
+    margin: 0 0 10px 10px;
+    border-radius: 4px;
+    border: none;
+    background: var(--main-secondary-muted, #E5FFDE);
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.night-btn:hover{
+    color: #fff;
+    background-color: #70C05B;
+}
+.night-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
